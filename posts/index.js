@@ -9,12 +9,15 @@ const { randomBytes } = require('crypto');
 const app = express();
 app.use(bodyParser.json());
 
+// store your posts in the following array
 const posts = {};
 
+// route to GET posts
 app.get('/posts', (req, res) => {
   res.send(posts);
 });
 
+// route to save new post
 app.post('/posts', (req, res) => {
   const id = randomBytes(4).toString('hex');
   const { title } = req.body;
@@ -24,9 +27,11 @@ app.post('/posts', (req, res) => {
     title
   };
 
+// send back 201-created
   res.status(201).send(posts[id]);
 });
 
+// listen on port 4000
 app.listen(4000, () => {
-  console.log('Listening on 4000');
+  console.log('Listening on port 4000');
 });
