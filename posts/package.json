@@ -4,9 +4,9 @@
   "description": "posts for blog",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
-  "author": "",
+  "author": "John McClenon, Jr.",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.0",
