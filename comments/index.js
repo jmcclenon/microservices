@@ -1,5 +1,5 @@
 // jshint esversion:6
-// jshint linter enabled in Visual Studio Code
+// by Stephen Grider
 
 
 const express = require('express');
