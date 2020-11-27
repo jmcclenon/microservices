@@ -1,12 +1,14 @@
 // jshint esversion:6
 
 
-import express from 'express';
-import { json } from 'body-parser';
-import { randomBytes } from 'crypto';
+const express = require('express');
+const bodyParser = require('body-parser');
+const { randomBytes } = require('crypto');
+const cors = require('cors');
 
 const app = express();
-app.use(json());
+app.use(bodyParser.json());
+app.use(cors());
 
 // store your posts in the following array
 const posts = {};
