@@ -1,3 +1,5 @@
+// jshint esversion: 8
+
 import React, { useState } from 'react';
 import axios from 'axios';
 
@@ -13,11 +15,6 @@ export default ({ postId }) => {
 
     setContent('');
   };
-
-  return (
-    <div>
-      <form onSubmit={onSubmit}>
-        <div className="form-group">
           <label>New Comment</label>
           <input
             value={content}
