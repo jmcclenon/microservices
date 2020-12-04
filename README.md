@@ -36,13 +36,19 @@ You can test the POST and COMMENTS microservices using POSTMAN.
 
 Promise based HTTP client for the browser and node.js
 
-### Express
+https://www.npmjs.com/package/express
+
+### EXPRESS
 
 Fast, unopinionated, minimalist web framework for node.
+
+https://www.npmjs.com/package/express
 
 ### CORS
 CORS is a node.js package for providing a Connect/Express middleware that can be 
 used to enable CORS with various options.
+
+https://www.npmjs.com/package/cors
 
 ### NODEMON
 nodemon is a tool that helps develop node.js based applications by automatically 
