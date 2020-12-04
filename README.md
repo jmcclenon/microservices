@@ -32,19 +32,21 @@ You can test the POST and COMMENTS microservices using POSTMAN.
    as long as the service is running
 8. The array is cleared when the service is no longer running
 
-## AXIOS
+### AXIOS
 
 Promise based HTTP client for the browser and node.js
 
-## Express
+### Express
 
 Fast, unopinionated, minimalist web framework for node.
 
-## CORS
+### CORS
 CORS is a node.js package for providing a Connect/Express middleware that can be 
 used to enable CORS with various options.
 
-## NODEMON
+### NODEMON
 nodemon is a tool that helps develop node.js based applications by automatically 
 restarting the node application when file changes in the directory are detected.
+
+https://www.npmjs.com/package/nodemon
 
