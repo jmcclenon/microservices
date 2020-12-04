@@ -17,3 +17,42 @@ The CORS (Cross Origin Resource Sharing) error that occurs (before you install a
 Without CORS running, the POSTS and COMMENTS services will fail. We will see a better CORS solution later in the course.
 
 To see the CORS error, use the NETWORKING tab fron Firefox or Chrome web developer tools.
+
+## POSTMAN
+
+You can test the POST and COMMENTS microservices using POSTMAN.
+
+1. Run POSTS on port 4000 (WSL Ubuntu 20.04)
+2. Run POSTMAN in Windows
+3. Select 'post' in POSTMAN
+4. BODY tab is selected. Enter title
+5. Service will generate id for post (hex)
+6. If post title sucessfully sent, then display 201-create code
+7. Since the post titles are going into an array, it will accumulate 
+   as long as the service is running
+8. The array is cleared when the service is no longer running
+
+### AXIOS
+
+Promise based HTTP client for the browser and node.js
+
+https://www.npmjs.com/package/express
+
+### EXPRESS
+
+Fast, unopinionated, minimalist web framework for node.
+
+https://www.npmjs.com/package/express
+
+### CORS
+CORS is a node.js package for providing a Connect/Express middleware that can be 
+used to enable CORS with various options.
+
+https://www.npmjs.com/package/cors
+
+### NODEMON
+nodemon is a tool that helps develop node.js based applications by automatically 
+restarting the node application when file changes in the directory are detected.
+
+https://www.npmjs.com/package/nodemon
+
